@@ -1,8 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/admin",                        "destination": "/admin/index.html" },
-    { "source": "/admin/(?!.*\\.\\w+$)(.*)",     "destination": "/admin/index.html" },
-    { "source": "/(.*)",                         "destination": "/index.html" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
 
