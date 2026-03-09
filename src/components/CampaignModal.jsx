@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { X, Calendar, PenTool } from 'lucide-react';
 import { modalContent } from '../data/content';
 import './CampaignModal.css';
@@ -8,7 +8,7 @@ const CampaignModal = ({ campaign, onClose }) => {
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content glass-panel" onClick={e => e.stopPropagation()}>
+      <div className="modal-content" onClick={e => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose} aria-label="Close modal">
           <X size={24} />
         </button>

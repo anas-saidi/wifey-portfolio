@@ -1,13 +1,13 @@
 export const campaigns = [
   {
     id: 1,
-    title: 'Lancement de la 5G',
+    title: 'Lancement Commercial 5G',
     type: 'Campagne de Marque',
     date: 'Février 2026',
     thumbnail: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800',
-    description: 'Une campagne visuelle complète conçue pour annoncer une nouvelle ère de connectivité. Ciblée sur les jeunes professionnels, elle met l\'accent sur la rapidité, la proximité et la confiance.',
-    role: 'Communicant Visuel Principal',
-    tools: ['Figma', 'Adobe Creative Suite', 'After Effects'],
+    description: 'Brief : lancer la 5G grand public en 6 semaines, sur 4 supports simultanés. J\'ai conçu le système visuel complet — de la charte couleur aux templates animés pour les réseaux sociaux — en maintenant une cohérence stricte entre l\'affichage urbain, le digital et les spots TV de 15 secondes.',
+    role: 'Directrice Artistique',
+    tools: ['Figma', 'After Effects', 'Illustrator', 'Premiere Pro'],
     gallery: [
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200'
@@ -19,9 +19,9 @@ export const campaigns = [
     type: 'Identité Événementielle',
     date: 'Novembre 2025',
     thumbnail: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800',
-    description: 'Création de l\'identité visuelle et des actifs numériques pour un sommet national axé sur la transformation numérique, soulignant le flux de données organique et la connexion humaine.',
-    role: 'Représentant Marketing Créatif',
-    tools: ['Illustrator', 'Cinema 4D'],
+    description: 'Mission : donner une identité forte à un sommet gouvernemental réunissant 2 000 participants et diffusé en direct. J\'ai développé le logo, la signalétique de l\'événement, les supports scéniques et le kit presse — le tout sous 3 semaines, en coordination avec les équipes de production et de sécurité.',
+    role: 'Designers Principale & Responsable Identité',
+    tools: ['Illustrator', 'InDesign', 'Cinema 4D', 'Figma'],
     gallery: [
       'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200'
@@ -29,13 +29,13 @@ export const campaigns = [
   },
   {
     id: 3,
-    title: 'Initiative Proximité',
-    type: 'Stratégie Réseaux Sociaux',
+    title: 'Campagne Proximité Rurale',
+    type: 'Campagne Sociale & Digitale',
     date: 'Juillet 2025',
     thumbnail: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800',
-    description: 'Une campagne axée sur les réseaux sociaux visant la connectivité rurale. Le langage visuel mettait l\'accent sur la confiance, la chaleur et la fiabilité des communications.',
-    role: 'Stratège en Communication & Designer',
-    tools: ['Photoshop', 'Canva', 'Premiere Pro'],
+    description: 'Objectif : réconcilier une marque de télécommunications avec des communautés rurales méfiantes. J\'ai construit un langage visuel ancré dans les codes locaux — typographie chaleureuse, photographie documentaire, palette terreuse — déployé sur Facebook, YouTube et les panneaux de proximité en zones reculées.',
+    role: 'Conceptrice-Rédactrice & Directrice Artistique',
+    tools: ['Photoshop', 'Lightroom', 'Premiere Pro', 'Canva Pro'],
     gallery: [
       'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=1200',
       'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200'

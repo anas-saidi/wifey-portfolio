@@ -1,26 +1,18 @@
-import React from 'react';
-import { Users, Lightbulb, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { aboutContent } from '../data/content';
 import './AboutSection.css';
 
 const AboutSection = () => {
-  const iconMap = [
-    <Users size={32} className="text-red" />,
-    <Lightbulb size={32} className="text-red" />,
-    <ShieldCheck size={32} className="text-red" />
-  ];
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.2 }
+      transition: { staggerChildren: 0.15 }
     }
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 40 },
+    hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
       y: 0,
@@ -30,37 +22,60 @@ const AboutSection = () => {
 
   return (
     <section className="about-section" id="about">
-      <div className="container">
+      <div className="container about-inner">
+        
+        {/* Left Column: Abstract Portrait */}
         <motion.div 
-          className="about-header"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          className="about-visual"
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
         >
-          <h2 className="section-title">{aboutContent.sectionTitle}</h2>
-          <p className="section-subtitle">
-            {aboutContent.sectionSubtitle}
-          </p>
+          <div className="about-portrait">
+            <div className="portrait-icon">✦</div>
+          </div>
+          <motion.div 
+            className="about-badge glass-panel"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+          >
+            <div className="about-badge-num">{aboutContent.badgeNum}</div>
+            <div className="about-badge-label">{aboutContent.badgeLabel}</div>
+          </motion.div>
         </motion.div>
 
+        {/* Right Column: Copy & Pillars */}
         <motion.div 
-          className="pillars-grid"
+          className="about-text"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
         >
-          {aboutContent.pillars.map((pillar, index) => (
-            <motion.div key={index} className="glass-panel pillar-card" variants={itemVariants}>
-              <div className="pillar-icon-wrapper">
-                {iconMap[index]}
-              </div>
-              <h3 className="pillar-title">{pillar.title}</h3>
-              <p className="pillar-description">{pillar.description}</p>
-            </motion.div>
-          ))}
+          <motion.div className="section-label" variants={itemVariants}>{aboutContent.sectionLabel}</motion.div>
+          <motion.h2 className="about-heading" dangerouslySetInnerHTML={{ __html: aboutContent.sectionTitle }} variants={itemVariants}></motion.h2>
+          <motion.p className="about-subtitle" variants={itemVariants}>
+            {aboutContent.sectionSubtitle}
+          </motion.p>
+          
+          <motion.div className="about-bio" variants={containerVariants}>
+            {aboutContent.bio.map((paragraph, index) => (
+              <motion.p key={index} variants={itemVariants} className="about-copy">
+                {paragraph}
+              </motion.p>
+            ))}
+          </motion.div>
+
+          <motion.div className="skills-grid" variants={containerVariants} style={{ marginTop: '2rem' }}>
+            {aboutContent.skills.map(skill => (
+              <motion.span className="skill-chip" key={skill} variants={itemVariants}>{skill}</motion.span>
+            ))}
+          </motion.div>
         </motion.div>
+        
       </div>
     </section>
   );
