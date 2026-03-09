@@ -1,0 +1,93 @@
+.about-section {
+  position: relative;
+  z-index: 2;
+  background: var(--bg-darker);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.pillar-card {
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid transparent;
+}
+
+.pillar-card:hover {
+  border-top-color: var(--iam-red);
+  transform: translateY(-10px);
+}
+
+.pillar-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(227, 24, 55, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: all var(--transition-normal);
+}
+
+.pillar-card:hover .pillar-icon-wrapper {
+  background: var(--iam-red);
+}
+
+.pillar-card:hover .pillar-icon-wrapper svg {
+  color: white;
+}
+
+.pillar-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.pillar-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+  .pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+}

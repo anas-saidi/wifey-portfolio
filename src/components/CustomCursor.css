@@ -1,0 +1,43 @@
+.custom-cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--text-primary);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+  mix-blend-mode: difference;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--iam-red);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10000;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.cursor-clicked {
+  transform: translate(-50%, -50%) scale(0.8);
+  background-color: rgba(227, 24, 55, 0.2);
+}
+
+.cursor-hovering {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  backdrop-filter: blur(2px);
+  mix-blend-mode: normal;
+}
+
+/* Hide default cursor globally */
+body, a, button, .campaign-card {
+  cursor: none !important;
+}
