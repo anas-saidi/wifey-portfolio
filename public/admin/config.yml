@@ -1,33 +1,15 @@
-# ─────────────────────────────────────────────────────────
-# DECAP CMS CONFIGURATION
-# ─────────────────────────────────────────────────────────
-# SETUP STEPS (one-time):
-#   1. Replace YOUR_GITHUB_USERNAME/YOUR_REPO_NAME below.
-#   2. Create a GitHub OAuth App at https://github.com/settings/developers
-#        Homepage URL      →  https://your-vercel-site.vercel.app
-#        Callback URL      →  https://your-vercel-site.vercel.app/
-#   3. Paste the OAuth App "Client ID" in app_id below.
-#   4. Commit & push — Vercel will deploy the /admin page.
-#   5. Go to https://your-vercel-site.vercel.app/admin to log in.
-# ─────────────────────────────────────────────────────────
-
-backend:
+﻿backend:
   name: github
   repo: anas-saidi/wifey-portfolio
   branch: master
   auth_type: pkce
   app_id: Ov23liv2Hg8sV81czZba
 
-# Uncomment the line below to edit content locally without committing.
-# Run `npx decap-server` in a separate terminal first.
-# local_backend: true
-
 media_folder: public/assets/uploads
 public_folder: /assets/uploads
 
 collections:
 
-  # ── SITE CONTENT ────────────────────────────────────────
   - name: site_content
     label: Site Content
     files:
@@ -41,23 +23,23 @@ collections:
             name: nav
             widget: object
             fields:
-              - { label: Logo Text,        name: logo,      widget: string }
-              - { label: Home Link,         name: home,      widget: string }
-              - { label: Approach Link,     name: approach,  widget: string }
-              - { label: Campaigns Link,    name: campaigns, widget: string }
-              - { label: Contact Link,      name: contact,   widget: string }
+              - { label: Logo Text,       name: logo,      widget: string }
+              - { label: Home Link,       name: home,      widget: string }
+              - { label: Approach Link,   name: approach,  widget: string }
+              - { label: Campaigns Link,  name: campaigns, widget: string }
+              - { label: Contact Link,    name: contact,   widget: string }
 
           - label: Hero Section
             name: hero
             widget: object
             fields:
-              - { label: Eyebrow Text,      name: eyebrow,         widget: string }
-              - { label: Title Line 1,      name: titleLine1,      widget: string }
-              - { label: Title Highlight,   name: titleHighlight,  widget: string }
-              - { label: Subtitle,          name: subtitle,        widget: text   }
-              - { label: Primary Button,    name: primaryButton,   widget: string }
-              - { label: Secondary Button,  name: secondaryButton, widget: string }
-              - { label: Scroll Cue,        name: scrollCue,       widget: string }
+              - { label: Eyebrow Text,     name: eyebrow,         widget: string }
+              - { label: Title Line 1,     name: titleLine1,      widget: string }
+              - { label: Title Highlight,  name: titleHighlight,  widget: string }
+              - { label: Subtitle,         name: subtitle,        widget: text }
+              - { label: Primary Button,   name: primaryButton,   widget: string }
+              - { label: Secondary Button, name: secondaryButton, widget: string }
+              - { label: Scroll Cue,       name: scrollCue,       widget: string }
               - label: Stats
                 name: stats
                 widget: list
@@ -72,10 +54,10 @@ collections:
             widget: object
             fields:
               - { label: Section Label,    name: sectionLabel,    widget: string }
-              - { label: "Section Title (HTML allowed)", name: sectionTitle, widget: string }
+              - { label: Section Title,    name: sectionTitle,    widget: string }
               - { label: Badge Number,     name: badgeNum,        widget: string }
               - { label: Badge Label,      name: badgeLabel,      widget: string }
-              - { label: Subtitle,         name: sectionSubtitle, widget: text   }
+              - { label: Subtitle,         name: sectionSubtitle, widget: text }
               - label: Bio Paragraphs
                 name: bio
                 widget: list
@@ -90,32 +72,32 @@ collections:
             widget: object
             fields:
               - { label: Section Label, name: sectionLabel, widget: string }
-              - { label: "Section Title (HTML allowed)", name: sectionTitle, widget: string }
+              - { label: Section Title, name: sectionTitle, widget: string }
               - label: Pillars
                 name: pillars
                 widget: list
                 fields:
                   - { label: Title,       name: title,       widget: string }
-                  - { label: Description, name: description, widget: text   }
+                  - { label: Description, name: description, widget: text }
 
           - label: Gallery Section
             name: gallery
             widget: object
             fields:
-              - { label: Section Label,    name: sectionLabel,       widget: string }
-              - { label: "Section Title (HTML allowed)", name: sectionTitle, widget: string }
-              - { label: Section Subtitle, name: sectionSubtitle,    widget: text   }
+              - { label: Section Label,       name: sectionLabel,      widget: string }
+              - { label: Section Title,       name: sectionTitle,      widget: string }
+              - { label: Section Subtitle,    name: sectionSubtitle,   widget: text }
               - { label: View Project Button, name: viewProjectButton, widget: string }
 
           - label: Project Modal Labels
             name: modal
             widget: object
             fields:
-              - { label: Date Label,      name: dateLabel,     widget: string }
-              - { label: Role Label,      name: roleLabel,     widget: string }
-              - { label: Overview Title,  name: overviewTitle, widget: string }
-              - { label: Tools Title,     name: toolsTitle,    widget: string }
-              - { label: Gallery Title,   name: galleryTitle,  widget: string }
+              - { label: Date Label,     name: dateLabel,     widget: string }
+              - { label: Role Label,     name: roleLabel,     widget: string }
+              - { label: Overview Title, name: overviewTitle, widget: string }
+              - { label: Tools Title,    name: toolsTitle,    widget: string }
+              - { label: Gallery Title,  name: galleryTitle,  widget: string }
 
           - label: Footer
             name: footer
@@ -132,7 +114,6 @@ collections:
                 widget: list
                 field: { label: Item, name: item, widget: string }
 
-  # ── CAMPAIGNS ───────────────────────────────────────────
   - name: campaigns_collection
     label: Campaigns
     files:
@@ -149,8 +130,8 @@ collections:
               - { label: Title,         name: title,       widget: string }
               - { label: Type,          name: type,        widget: string }
               - { label: Date,          name: date,        widget: string }
-              - { label: "Thumbnail URL", name: thumbnail, widget: string, hint: "Paste an image URL or upload via the Media folder" }
-              - { label: Description,   name: description, widget: text   }
+              - { label: Thumbnail URL, name: thumbnail,   widget: string }
+              - { label: Description,   name: description, widget: text }
               - { label: Role,          name: role,        widget: string }
               - label: Tools
                 name: tools
@@ -159,4 +140,4 @@ collections:
               - label: Gallery Image URLs
                 name: gallery
                 widget: list
-                field: { label: "Image URL", name: url, widget: string }
+                field: { label: Image URL, name: url, widget: string }
