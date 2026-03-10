@@ -17,7 +17,6 @@ collections:
       - name: content
         label: Site Content
         file: src/data/content.json
-        format: json
         fields:
 
           - label: Navigation
@@ -122,7 +121,6 @@ collections:
       - name: campaigns
         label: All Campaigns
         file: src/data/campaigns.json
-        format: json
         fields:
           - label: Campaigns
             name: campaigns
