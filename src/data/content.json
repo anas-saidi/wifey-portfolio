@@ -8,15 +8,30 @@
   },
   "hero": {
     "eyebrow": "Communication & Design",
-    "titleLine1": "Responsable Communication &",
+    "titleLine1": "Corporate Communication Manager",
     "titleHighlight": "Designer",
     "subtitle": "Je traduis des stratégies de marque en identités visuelles qui durent. Basée à Rabat, j'interviens aux moments qui comptent — lancements, événements nationaux, campagnes à fort enjeu.",
     "primaryButton": "Voir mes Projets",
     "secondaryButton": "Ma Démarche",
     "stats": [
-      { "num": "24", "suffix": "+", "label": "Projets livrés", "caption": "campagnes & activations" },
-      { "num": "5", "suffix": "ans", "label": "Expérience", "caption": "communication & design" },
-      { "num": "100", "suffix": "%", "label": "Engagée", "caption": "dans chaque projet" }
+      {
+        "num": "24",
+        "suffix": "+",
+        "label": "Projets livrés",
+        "caption": "campagnes & activations"
+      },
+      {
+        "num": "5",
+        "suffix": "ans",
+        "label": "Expérience",
+        "caption": "communication & design"
+      },
+      {
+        "num": "100",
+        "suffix": "%",
+        "label": "Engagée",
+        "caption": "dans chaque projet"
+      }
     ],
     "scrollCue": "Défiler"
   },
