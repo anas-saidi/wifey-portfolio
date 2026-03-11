@@ -13,9 +13,9 @@
   },
   "nav": {
     "logo": "Salma.",
-    "home": "Accueil",
-    "approach": "Approche",
-    "campaigns": "Campagnes",
+    "home": "Home",
+    "approach": "Process",
+    "campaigns": "Campaigns",
     "contact": "Contact"
   },
   "approach": {
@@ -24,7 +24,7 @@
     "pillars": [
       {
         "title": "Understand before creating",
-        "description": "Every project starts with a deep dive into the client’s world — ththeir audience, goals, constraints, and opportunities"
+        "description": "Every project begins with a deep dive — understanding the audience, objectives, constraints, and opportunities before shaping strategy, content, or campaigns."
       },
       {
         "title": "A system, not a poster",
@@ -41,8 +41,7 @@
     "roleLabel": "Rôle",
     "overviewTitle": "Contexte & Enjeux",
     "toolsTitle": "Outils Utilisés",
-    "galleryTitle": "Visuels du Projet",
-    "deliverablesTitle": "Deliverables & Documents"
+    "galleryTitle": "Visuels du Projet"
   },
   "social": {
     "sectionLabel": "Publie sur",
@@ -99,7 +98,7 @@
     "eyebrow": "Communication & Design",
     "titleLine1": "Corporate Communication Manager",
     "titleHighlight": "Designer",
-    "subtitle": "I craft communication strategies and lead projects that bring ideas to life, from content creation and campaigns to events and stakeholder engagement.\nBased in Rabat, I help organizations communicate with impact and purpose.",
+    "subtitle": "I craft communication strategies and lead projects that bring ideas to life, from content creation and campaigns to events and stakeholder engagement.\n\nBased in Rabat, I help organizations communicate with impact and purpose.",
     "primaryButton": "View My Projects",
     "secondaryButton": "My Process",
     "stats": [
@@ -122,7 +121,7 @@
         "caption": "in every project"
       }
     ],
-    "scrollCue": "Scroll down"
+    "scrollCue": "scroll down"
   },
   "footer": {
     "text": "Salma — Responsable de communication & Designer, Rabat."
