@@ -23,10 +23,18 @@ body.modal-open .app-header {
   border-top: none;
 }
 
+/* Stronger contrast and more blur as you scroll (values come from CSS vars set in Header.jsx). */
+.app-header.scrolled.glass-panel {
+  background: rgba(255, 252, 247, var(--nav-bg-alpha, 0.62));
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
 @supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
-  .app-header.scrolled {
-    -webkit-backdrop-filter: blur(28px) saturate(1.8);
-    backdrop-filter: blur(28px) saturate(1.8);
+  .app-header.scrolled.glass-panel {
+    -webkit-backdrop-filter: blur(var(--nav-blur, 28px)) saturate(1.8);
+    backdrop-filter: blur(var(--nav-blur, 28px)) saturate(1.8);
   }
 }
 

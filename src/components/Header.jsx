@@ -5,18 +5,38 @@ import './Header.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      if (ticking) return;
+      ticking = true;
+
+      window.requestAnimationFrame(() => {
+        const y = window.scrollY || 0;
+        setScrollY(y);
+        setIsScrolled(y > 20);
+        ticking = false;
+      });
     };
-    window.addEventListener('scroll', handleScroll);
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const scrollProgress = Math.min(1, Math.max(0, (scrollY - 20) / 220));
+  const navBlurPx = `${Math.round(28 + 20 * scrollProgress)}px`; // 28px -> 48px
+  const navBgAlpha = (0.62 + 0.22 * scrollProgress).toFixed(2); // 0.62 -> 0.84
+
   return (
-    <header className={`app-header ${isScrolled ? 'scrolled glass-panel' : ''}`}>
+    <header
+      className={`app-header ${isScrolled ? 'scrolled glass-panel' : ''}`}
+      style={isScrolled ? { '--nav-blur': navBlurPx, '--nav-bg-alpha': navBgAlpha } : undefined}
+    >
       <div className="container header-container">
         <div className="logo">
           <svg className="logo-heart" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
