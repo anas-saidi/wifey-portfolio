@@ -50,20 +50,24 @@
     "sectionLabel": "Digital Campaigns",
     "sectionTitle": "Social Media<br><em>Management</em>",
     "sectionSubtitle": "A selection of posts and campaigns I created and managed for my employer ",
-    "companyName": "EMB",
-    "contextLine": "",
-    "links": [
+    "companies": [
       {
-        "platform": "instagram",
-        "label": "Instagram",
-        "url": "https://www.instagram.com/embmaroc/",
-        "description": "Creative posts and stories."
-      },
-      {
-        "platform": "linkedin",
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/company/embmaroc",
-        "description": "Announcements, campaigns, and corporate highlights."
+        "name": "EMB",
+        "contextLine": "",
+        "links": [
+          {
+            "platform": "instagram",
+            "label": "Instagram",
+            "url": "https://www.instagram.com/embmaroc/",
+            "description": "Creative posts and stories."
+          },
+          {
+            "platform": "linkedin",
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/company/embmaroc",
+            "description": "Announcements, campaigns, and corporate highlights."
+          }
+        ]
       }
     ]
   },

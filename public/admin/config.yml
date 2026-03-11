@@ -89,6 +89,31 @@ collections:
               - { label: Section Subtitle,    name: sectionSubtitle,   widget: text }
               - { label: View Project Button, name: viewProjectButton, widget: string }
 
+          - label: Social Links Section
+            name: social
+            widget: object
+            fields:
+              - { label: Section Label,    name: sectionLabel,    widget: string }
+              - { label: Section Title,    name: sectionTitle,    widget: string }
+              - { label: Section Subtitle, name: sectionSubtitle, widget: text, required: false }
+              - label: Companies
+                name: companies
+                widget: list
+                fields:
+                  - { label: Company Name,  name: name,        widget: string }
+                  - { label: Context Line,  name: contextLine, widget: string, required: false }
+                  - label: Links
+                    name: links
+                    widget: list
+                    fields:
+                      - label: Platform
+                        name: platform
+                        widget: select
+                        options: [instagram, linkedin, facebook, twitter, youtube, tiktok]
+                      - { label: Label,       name: label,       widget: string }
+                      - { label: URL,         name: url,         widget: string }
+                      - { label: Description, name: description, widget: string, required: false }
+
           - label: Project Modal Labels
             name: modal
             widget: object

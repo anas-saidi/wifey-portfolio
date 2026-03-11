@@ -10,30 +10,48 @@
   text-align: center;
 }
 
+/* Override global justify for social text */
+.social-header p,
+.social-company-header,
+.social-card-desc {
+  text-align: left;
+}
+
 .social-subtitle {
   margin: 0.75rem auto 0;
   max-width: 70ch;
   font-size: 1.1rem;
   line-height: 1.75;
   color: var(--text-secondary);
+  text-align: center;
 }
 
-.social-context {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  line-height: 1.6;
+.social-company-group {
+  margin-bottom: 3rem;
 }
 
-.social-company {
-  display: inline-block;
-  margin-right: 0.5rem;
+.social-company-group:last-child {
+  margin-bottom: 0;
+}
+
+.social-company-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.social-company-name {
   font-weight: 800;
+  font-size: 1.1rem;
   color: var(--text-primary);
 }
 
-.social-context-line {
-  display: inline;
+.social-company-context {
+  font-size: 0.9rem;
+  color: var(--text-muted);
 }
 
 .social-grid {
