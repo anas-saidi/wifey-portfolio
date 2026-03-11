@@ -74,6 +74,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  text-align: justify;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
