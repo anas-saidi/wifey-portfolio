@@ -65,14 +65,14 @@
     ]
   },
   "about": {
-    "sectionLabel": "À Propos",
-    "sectionTitle": "Du sens avant<br>tout, <em>de l'esthétique ensuite.</em>",
+    "sectionLabel": "About",
+    "sectionTitle": "Curious mind.<br><em>Creative drive.</em>",
     "badgeNum": "24+",
-    "badgeLabel": "Projets livrés",
-    "sectionSubtitle": "Je suis directrice artistique et designer de communication, spécialisée dans les campagnes institutionnelles et les identités événementielles.",
+    "badgeLabel": "Deliverables",
+    "sectionSubtitle": "Strategic, creative, and hands-on in corporate communication.",
     "bio": [
-      "Depuis 5 ans, j'accompagne des marques marocaines et régionales sur leurs projets les plus visibles : dispositifs de lancement, identités de sommets, et campagnes digitales à grande échelle.",
-      "Ma méthode part toujours de la même question : qu'est-ce que cette marque doit faire ressentir ? La forme arrive en réponse, pas en point de départ."
+      "With four years in marketing and corporate communication, I oversee projects from brief to execution, crafting content, campaigns, and events that strengthen brand presence and company culture.",
+      "33"
     ],
     "skills": [
       "Direction Artistique",
@@ -95,9 +95,9 @@
     "eyebrow": "Communication & Design",
     "titleLine1": "Corporate Communication Manager",
     "titleHighlight": "Designer",
-    "subtitle": "I craft communication strategies and lead projects that bring ideas to life — from content creation and campaigns to events and stakeholder engagement.\nBased in Rabat, I help organizations communicate with impact and purpose.",
+    "subtitle": "I craft communication strategies and lead projects that bring ideas to life, from content creation and campaigns to events and stakeholder engagement.\nBased in Rabat, I help organizations communicate with impact and purpose.",
     "primaryButton": "View My Projects",
-    "secondaryButton": "Ma Démarche",
+    "secondaryButton": "My Process",
     "stats": [
       {
         "num": "24",
@@ -106,19 +106,19 @@
         "caption": "campagnes & activations"
       },
       {
-        "num": "5",
-        "suffix": "ans",
-        "label": "Expérience",
+        "num": "4",
+        "suffix": "years",
+        "label": "Experience",
         "caption": "communication & design"
       },
       {
         "num": "100",
         "suffix": "%",
-        "label": "Engagée",
-        "caption": "dans chaque projet"
+        "label": "Invested ",
+        "caption": "in every project"
       }
     ],
-    "scrollCue": "Défiler"
+    "scrollCue": "Scroll down"
   },
   "footer": {
     "text": "Salma — Responsable de communication & Designer, Rabat."
