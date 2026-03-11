@@ -1,11 +1,17 @@
 export default async function handler(req, res) {
   const { code } = req.query;
-  const { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } = process.env;
+  const clientId = (process.env.GITHUB_CLIENT_ID || '').trim();
+  const clientSecret = (process.env.GITHUB_CLIENT_SECRET || '').trim();
+
+  if (!clientId || !clientSecret) {
+    res.status(500).send('Missing GITHUB_CLIENT_ID/GITHUB_CLIENT_SECRET env vars');
+    return;
+  }
 
   const tokenRes = await fetch('https://github.com/login/oauth/access_token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-    body: JSON.stringify({ client_id: GITHUB_CLIENT_ID, client_secret: GITHUB_CLIENT_SECRET, code }),
+    body: JSON.stringify({ client_id: clientId, client_secret: clientSecret, code }),
   });
 
   const { access_token, error } = await tokenRes.json();
