@@ -2,28 +2,42 @@
   "campaigns": [
     {
       "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-      "date": "Février 2026",
+      "date": "2024 - 2026",
       "gallery": [
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
         "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200"
       ],
-      "role": "Directrice Artistique",
-      "title": "Lancement Commercial 5G",
-      "type": "Campagne de Marque Test",
+      "deliverables": [
+        {
+          "label": "Brief créatif & Stratégie",
+          "type": "PDF",
+          "url": "#"
+        },
+        {
+          "label": "Charte graphique complète",
+          "type": "PDF",
+          "url": "#"
+        },
+        {
+          "label": "Présentation finale client",
+          "type": "Slides",
+          "url": "#"
+        },
+        {
+          "label": "Tous les fichiers du projet",
+          "type": "Dossier",
+          "url": "#"
+        }
+      ],
+      "role": "Corporate Communication Manager",
+      "title": "Newsletters",
+      "type": "Portfolio-safe examples only; confidential details omitted.",
       "id": 1,
       "tools": [
-        "Figma",
-        "After Effects",
-        "Illustrator",
-        "Premiere Pro"
+        "Mailjet",
+        "Canva"
       ],
-      "description": "Brief : lancer la 5G grand public en 6 semaines, sur 4 supports simultanés. J'ai conçu le système visuel complet — de la charte couleur aux templates animés pour les réseaux sociaux — en maintenant une cohérence stricte entre l'affichage urbain, le digital et les spots TV de 15 secondes.",
-      "deliverables": [
-        { "label": "Brief créatif & Stratégie", "type": "PDF", "url": "#" },
-        { "label": "Charte graphique complète", "type": "PDF", "url": "#" },
-        { "label": "Présentation finale client", "type": "Slides", "url": "#" },
-        { "label": "Tous les fichiers du projet", "type": "Dossier", "url": "#" }
-      ]
+      "description": "A selection of internal and external newsletters I designed and produced, crafted to inform, and engage."
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
@@ -31,6 +45,23 @@
       "gallery": [
         "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200",
         "https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "deliverables": [
+        {
+          "label": "Kit presse & identité visuelle",
+          "type": "PDF",
+          "url": "#"
+        },
+        {
+          "label": "Manuel de signalétique",
+          "type": "PDF",
+          "url": "#"
+        },
+        {
+          "label": "Moodboard & direction artistique",
+          "type": "Slides",
+          "url": "#"
+        }
       ],
       "role": "Designers Principale & Responsable Identité",
       "title": "Sommet Digital Morocco 2030",
@@ -42,12 +73,7 @@
         "Cinema 4D",
         "Figma"
       ],
-      "description": "Mission : donner une identité forte à un sommet gouvernemental réunissant 2 000 participants et diffusé en direct. J'ai développé le logo, la signalétique de l'événement, les supports scéniques et le kit presse — le tout sous 3 semaines, en coordination avec les équipes de production et de sécurité.",
-      "deliverables": [
-        { "label": "Kit presse & identité visuelle", "type": "PDF", "url": "#" },
-        { "label": "Manuel de signalétique", "type": "PDF", "url": "#" },
-        { "label": "Moodboard & direction artistique", "type": "Slides", "url": "#" }
-      ]
+      "description": "Mission : donner une identité forte à un sommet gouvernemental réunissant 2 000 participants et diffusé en direct. J'ai développé le logo, la signalétique de l'événement, les supports scéniques et le kit presse — le tout sous 3 semaines, en coordination avec les équipes de production et de sécurité."
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
@@ -55,6 +81,18 @@
       "gallery": [
         "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=1200",
         "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "deliverables": [
+        {
+          "label": "Rapport de campagne",
+          "type": "PDF",
+          "url": "#"
+        },
+        {
+          "label": "Guide visuel & typographie",
+          "type": "PDF",
+          "url": "#"
+        }
       ],
       "role": "Conceptrice-Rédactrice & Directrice Artistique",
       "title": "Campagne Proximité Rurale",
@@ -66,11 +104,7 @@
         "Premiere Pro",
         "Canva Pro"
       ],
-      "description": "Objectif : réconcilier une marque de télécommunications avec des communautés rurales méfiantes. J'ai construit un langage visuel ancré dans les codes locaux — typographie chaleureuse, photographie documentaire, palette terreuse — déployé sur Facebook, YouTube et les panneaux de proximité en zones reculées.",
-      "deliverables": [
-        { "label": "Rapport de campagne", "type": "PDF", "url": "#" },
-        { "label": "Guide visuel & typographie", "type": "PDF", "url": "#" }
-      ]
+      "description": "Objectif : réconcilier une marque de télécommunications avec des communautés rurales méfiantes. J'ai construit un langage visuel ancré dans les codes locaux — typographie chaleureuse, photographie documentaire, palette terreuse — déployé sur Facebook, YouTube et les panneaux de proximité en zones reculées."
     }
   ]
 }
