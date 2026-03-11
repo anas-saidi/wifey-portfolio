@@ -97,7 +97,8 @@ collections:
               - { label: Role Label,     name: roleLabel,     widget: string }
               - { label: Overview Title, name: overviewTitle, widget: string }
               - { label: Tools Title,    name: toolsTitle,    widget: string }
-              - { label: Gallery Title,  name: galleryTitle,  widget: string }
+              - { label: Gallery Title,       name: galleryTitle,       widget: string }
+              - { label: Deliverables Title,  name: deliverablesTitle,  widget: string }
 
           - label: Footer
             name: footer
@@ -141,3 +142,14 @@ collections:
                 name: gallery
                 widget: list
                 field: { label: Image URL, name: url, widget: string }
+              - label: Deliverables
+                name: deliverables
+                widget: list
+                required: false
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - label: Type
+                    name: type
+                    widget: select
+                    options: [PDF, Slides, Dossier, Doc, Image, Lien]
+                  - { label: URL, name: url, widget: string }

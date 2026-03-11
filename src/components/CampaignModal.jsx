@@ -1,7 +1,15 @@
 import React from 'react';
-import { X, Calendar, PenTool } from 'lucide-react';
+import { X, Calendar, PenTool, FileText, Monitor, Folder, Image, ArrowUpRight } from 'lucide-react';
 import { modalContent } from '../data/content';
 import './CampaignModal.css';
+
+const DeliverableIcon = ({ type }) => {
+  const t = type?.toLowerCase();
+  if (t === 'slides' || t === 'presentation') return <Monitor size={16} />;
+  if (t === 'folder' || t === 'dossier') return <Folder size={16} />;
+  if (t === 'image') return <Image size={16} />;
+  return <FileText size={16} />;
+};
 
 const CampaignModal = ({ campaign, onClose }) => {
   if (!campaign) return null;
@@ -53,14 +61,31 @@ const CampaignModal = ({ campaign, onClose }) => {
             </div>
           </div>
 
-          <div className="modal-gallery">
-            <h3>{modalContent.galleryTitle}</h3>
-            <div className="gallery-images">
-              {campaign.gallery.map((img, idx) => (
-                <img key={idx} src={img} alt={`${campaign.title} - vue ${idx + 1}`} loading="lazy" />
-              ))}
+          {campaign.deliverables?.length > 0 && (
+            <div className="modal-deliverables">
+              <h3>{modalContent.deliverablesTitle}</h3>
+              <div className="deliverables-grid">
+                {campaign.deliverables.map((item, idx) => (
+                  <a
+                    key={idx}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="deliverable-link"
+                  >
+                    <div className="deliverable-icon">
+                      <DeliverableIcon type={item.type} />
+                    </div>
+                    <div className="deliverable-info">
+                      <span className="deliverable-label">{item.label}</span>
+                      <span className="deliverable-type">{item.type}</span>
+                    </div>
+                    <ArrowUpRight size={16} className="deliverable-arrow" />
+                  </a>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
