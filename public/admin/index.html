@@ -9,14 +9,15 @@
     <script>var CMS_MANUAL_INIT = true;</script>
     <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
     <script>
+      const siteOrigin = window.location.origin;
       CMS.init({
         config: {
           backend: {
             name: 'github',
             repo: 'anas-saidi/wifey-portfolio',
             branch: 'master',
-            auth_type: 'pkce',
-            app_id: 'Ov23liv2Hg8sV81czZba',
+            base_url: siteOrigin,
+            auth_endpoint: '/api/auth',
           },
           media_folder: 'public/assets/uploads',
           public_folder: '/assets/uploads',
