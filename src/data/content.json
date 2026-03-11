@@ -41,8 +41,7 @@
     "roleLabel": "Rôle",
     "overviewTitle": "Contexte & Enjeux",
     "toolsTitle": "Outils Utilisés",
-    "galleryTitle": "Visuels du Projet",
-    "deliverablesTitle": "Deliverables & Documents"
+    "galleryTitle": "Visuels du Projet"
   },
   "social": {
     "sectionLabel": "Publie sur",
@@ -90,10 +89,10 @@
     ]
   },
   "gallery": {
-    "sectionLabel": "Portfolio",
-    "sectionTitle": "Projets<br><em>Sélectionnés</em>",
-    "sectionSubtitle": "Trois projets récents qui illustrent ma façon de travailler : des briefs ambitieux, des contraintes réelles, des résultats mesurables.",
-    "viewProjectButton": "Voir le Projet"
+    "sectionLabel": "Projects",
+    "sectionTitle": "From Concept<br><em>to Launch</em>",
+    "sectionSubtitle": "A selection of projects that show how I turn challenges into clear, effective communication ; from strategy to content, campaigns, and events.",
+    "viewProjectButton": "View My Projects"
   },
   "hero": {
     "eyebrow": "Communication & Design",
