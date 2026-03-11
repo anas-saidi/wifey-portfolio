@@ -44,11 +44,11 @@
     "galleryTitle": "Visuels du Projet"
   },
   "social": {
-    "sectionLabel": "Publie sur",
-    "sectionTitle": "Ou mes designs<br><em>ont ete publies</em>",
-    "sectionSubtitle": "Selection de liens vers des publications diffusees pour mon employeur.",
-    "companyName": "Nom de l'entreprise",
-    "contextLine": "Travaux realises au sein de l'equipe communication.",
+    "sectionLabel": "Shared",
+    "sectionTitle": "Social <br><em>Highlights</em>",
+    "sectionSubtitle": "A selection of posts and campaigns I created and managed for my employer ",
+    "companyName": "EMB",
+    "contextLine": "",
     "links": [
       {
         "platform": "instagram",
@@ -98,7 +98,7 @@
     "eyebrow": "Communication & Design",
     "titleLine1": "Corporate Communication Manager",
     "titleHighlight": "Designer",
-    "subtitle": "I craft communication strategies and lead projects that bring ideas to life, from content creation and campaigns to events and stakeholder engagement.\nBased in Rabat, I help organizations communicate with impact and purpose.",
+    "subtitle": "I craft communication strategies and lead projects that bring ideas to life, from content creation and campaigns to events and stakeholder engagement<br>Based in Rabat, I help organizations communicate with impact and purpose.",
     "primaryButton": "View My Projects",
     "secondaryButton": "My Process",
     "stats": [
