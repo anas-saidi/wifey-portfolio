@@ -3,11 +3,155 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/admin/" />
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- Decap CMS admin panel -->
+    <script>var CMS_MANUAL_INIT = true;</script>
     <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
+    <script>
+      CMS.init({
+        config: {
+          backend: {
+            name: 'github',
+            repo: 'anas-saidi/wifey-portfolio',
+            branch: 'master',
+            auth_type: 'pkce',
+            app_id: 'Ov23liv2Hg8sV81czZba',
+          },
+          media_folder: 'public/assets/uploads',
+          public_folder: '/assets/uploads',
+          collections: [
+            {
+              name: 'site_content',
+              label: 'Site Content',
+              files: [
+                {
+                  name: 'content',
+                  label: 'Site Content',
+                  file: 'src/data/content.json',
+                  fields: [
+                    {
+                      label: 'Navigation', name: 'nav', widget: 'object',
+                      fields: [
+                        { label: 'Logo Text',      name: 'logo',      widget: 'string' },
+                        { label: 'Home Link',      name: 'home',      widget: 'string' },
+                        { label: 'Approach Link',  name: 'approach',  widget: 'string' },
+                        { label: 'Campaigns Link', name: 'campaigns', widget: 'string' },
+                        { label: 'Contact Link',   name: 'contact',   widget: 'string' },
+                      ],
+                    },
+                    {
+                      label: 'Hero Section', name: 'hero', widget: 'object',
+                      fields: [
+                        { label: 'Eyebrow Text',     name: 'eyebrow',         widget: 'string' },
+                        { label: 'Title Line 1',     name: 'titleLine1',      widget: 'string' },
+                        { label: 'Title Highlight',  name: 'titleHighlight',  widget: 'string' },
+                        { label: 'Subtitle',         name: 'subtitle',        widget: 'text' },
+                        { label: 'Primary Button',   name: 'primaryButton',   widget: 'string' },
+                        { label: 'Secondary Button', name: 'secondaryButton', widget: 'string' },
+                        { label: 'Scroll Cue',       name: 'scrollCue',       widget: 'string' },
+                        {
+                          label: 'Stats', name: 'stats', widget: 'list',
+                          fields: [
+                            { label: 'Number',  name: 'num',     widget: 'string' },
+                            { label: 'Suffix',  name: 'suffix',  widget: 'string' },
+                            { label: 'Label',   name: 'label',   widget: 'string' },
+                            { label: 'Caption', name: 'caption', widget: 'string' },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      label: 'About Section', name: 'about', widget: 'object',
+                      fields: [
+                        { label: 'Section Label',    name: 'sectionLabel',    widget: 'string' },
+                        { label: 'Section Title',    name: 'sectionTitle',    widget: 'string' },
+                        { label: 'Badge Number',     name: 'badgeNum',        widget: 'string' },
+                        { label: 'Badge Label',      name: 'badgeLabel',      widget: 'string' },
+                        { label: 'Subtitle',         name: 'sectionSubtitle', widget: 'text' },
+                        { label: 'Bio Paragraphs', name: 'bio', widget: 'list', field: { label: 'Paragraph', name: 'paragraph', widget: 'text' } },
+                        { label: 'Skills', name: 'skills', widget: 'list', field: { label: 'Skill', name: 'skill', widget: 'string' } },
+                      ],
+                    },
+                    {
+                      label: 'Approach Section', name: 'approach', widget: 'object',
+                      fields: [
+                        { label: 'Section Label', name: 'sectionLabel', widget: 'string' },
+                        { label: 'Section Title', name: 'sectionTitle', widget: 'string' },
+                        {
+                          label: 'Pillars', name: 'pillars', widget: 'list',
+                          fields: [
+                            { label: 'Title',       name: 'title',       widget: 'string' },
+                            { label: 'Description', name: 'description', widget: 'text' },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      label: 'Gallery Section', name: 'gallery', widget: 'object',
+                      fields: [
+                        { label: 'Section Label',       name: 'sectionLabel',      widget: 'string' },
+                        { label: 'Section Title',       name: 'sectionTitle',      widget: 'string' },
+                        { label: 'Section Subtitle',    name: 'sectionSubtitle',   widget: 'text' },
+                        { label: 'View Project Button', name: 'viewProjectButton', widget: 'string' },
+                      ],
+                    },
+                    {
+                      label: 'Project Modal', name: 'modal', widget: 'object',
+                      fields: [
+                        { label: 'Date Label',     name: 'dateLabel',     widget: 'string' },
+                        { label: 'Role Label',     name: 'roleLabel',     widget: 'string' },
+                        { label: 'Overview Title', name: 'overviewTitle', widget: 'string' },
+                        { label: 'Tools Title',    name: 'toolsTitle',    widget: 'string' },
+                        { label: 'Gallery Title',  name: 'galleryTitle',  widget: 'string' },
+                      ],
+                    },
+                    {
+                      label: 'Footer', name: 'footer', widget: 'object',
+                      fields: [
+                        { label: 'Footer Text', name: 'text', widget: 'string' },
+                      ],
+                    },
+                    {
+                      label: 'Marquee Strip', name: 'marquee', widget: 'object',
+                      fields: [
+                        { label: 'Items', name: 'items', widget: 'list', field: { label: 'Item', name: 'item', widget: 'string' } },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              name: 'campaigns_collection',
+              label: 'Campaigns',
+              files: [
+                {
+                  name: 'campaigns',
+                  label: 'All Campaigns',
+                  file: 'src/data/campaigns.json',
+                  fields: [
+                    {
+                      label: 'Campaigns', name: 'campaigns', widget: 'list',
+                      fields: [
+                        { label: 'ID',            name: 'id',          widget: 'number' },
+                        { label: 'Title',         name: 'title',       widget: 'string' },
+                        { label: 'Type',          name: 'type',        widget: 'string' },
+                        { label: 'Date',          name: 'date',        widget: 'string' },
+                        { label: 'Thumbnail URL', name: 'thumbnail',   widget: 'string' },
+                        { label: 'Description',   name: 'description', widget: 'text' },
+                        { label: 'Role',          name: 'role',        widget: 'string' },
+                        { label: 'Tools', name: 'tools', widget: 'list', field: { label: 'Tool', name: 'tool', widget: 'string' } },
+                        { label: 'Gallery Image URLs', name: 'gallery', widget: 'list', field: { label: 'Image URL', name: 'url', widget: 'string' } },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      });
+    </script>
   </body>
 </html>
