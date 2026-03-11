@@ -68,6 +68,24 @@
             "description": "Announcements, campaigns, and corporate highlights."
           }
         ]
+      },
+      {
+        "name": "Company Name",
+        "contextLine": "Role / Context",
+        "links": [
+          {
+            "platform": "instagram",
+            "label": "Instagram",
+            "url": "#",
+            "description": "Creative posts and stories."
+          },
+          {
+            "platform": "linkedin",
+            "label": "LinkedIn",
+            "url": "#",
+            "description": "Announcements and corporate highlights."
+          }
+        ]
       }
     ]
   },

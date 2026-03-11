@@ -12,7 +12,6 @@
 
 /* Override global justify for social text */
 .social-header p,
-.social-company-header,
 .social-card-desc {
   text-align: left;
 }
@@ -36,17 +35,20 @@
 
 .social-company-header {
   display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--glass-border);
+  text-align: center;
 }
 
 .social-company-name {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 .social-company-context {
