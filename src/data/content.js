@@ -8,7 +8,7 @@ export const aboutContent    = data.about;
 export const approachContent = data.approach;
 export const galleryContent  = data.gallery;
 export const modalContent    = data.modal;
+export const socialContent   = data.social;
 export const footerContent   = data.footer;
 export const marqueeContent  = data.marquee;
-
 

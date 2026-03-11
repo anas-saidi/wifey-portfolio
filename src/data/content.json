@@ -87,6 +87,27 @@
     "toolsTitle": "Outils Utilisés",
     "galleryTitle": "Visuels du Projet"
   },
+  "social": {
+    "sectionLabel": "Publie sur",
+    "sectionTitle": "Ou mes designs<br><em>ont ete publies</em>",
+    "sectionSubtitle": "Selection de liens vers des publications diffusees pour mon employeur.",
+    "companyName": "Nom de l'entreprise",
+    "contextLine": "Travaux realises au sein de l'equipe communication.",
+    "links": [
+      {
+        "platform": "instagram",
+        "label": "Instagram",
+        "url": "https://instagram.com/",
+        "description": "Posts et declinaisons visuelles de campagnes."
+      },
+      {
+        "platform": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/",
+        "description": "Annonces officielles, lancements et bilans."
+      }
+    ]
+  },
   "footer": {
     "text": "Salma — Responsable de communication & Designer, Rabat."
   },
