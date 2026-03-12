@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { galleryContent } from '../data/content';
 import './CampaignGallery.css';
 
-const bentoClass = ['bento-c1', 'bento-c2', 'bento-c3'];
+const bentoClass = ['bento-c1', 'bento-c2', 'bento-c3', 'bento-c4'];
 
 const CampaignGallery = () => {
   const [selectedCampaign, setSelectedCampaign] = useState(null);

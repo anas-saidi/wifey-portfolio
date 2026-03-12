@@ -49,6 +49,10 @@
   grid-column: span 7;
 }
 
+.bento-c4 {
+  grid-column: span 12;
+}
+
 /* ─── CARD INTERNALS ─── */
 .card-image {
   position: absolute;
