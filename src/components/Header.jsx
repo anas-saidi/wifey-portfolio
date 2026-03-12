@@ -49,7 +49,7 @@ const Header = () => {
           <a href="#hero" onClick={() => setMobileMenuOpen(false)}>{navContent.home}</a>
           <a href="#approach" onClick={() => setMobileMenuOpen(false)}>{navContent.approach}</a>
           <a href="#campaigns" onClick={() => setMobileMenuOpen(false)}>{navContent.campaigns}</a>
-          <a href="mailto:salma@portfolio.ma" className="nav-cta">{navContent.contact}</a>
+          <a href="mailto:kandil.salma00@gmail.com" className="nav-cta">{navContent.contact}</a>
         </nav>
 
         <div className="header-actions">
