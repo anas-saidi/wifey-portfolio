@@ -1,6 +1,58 @@
 {
   "campaigns": [
     {
+      "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "date": "2024 - 2026",
+      "gallery": [],
+      "deliverables": [
+        {
+          "label": "Trifold Brochure",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/13-ECcYXdJSwVBHWCKflQwyuDfTYdkEAG/view?usp=sharing"
+        },
+        {
+          "label": "Notebook - 2025",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1Eh1RPuryVC6pWVQ6k9DdteQWgc-y24WN/view?usp=sharing"
+        },
+        {
+          "label": "Notebook - 2026",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1ubgr7Ol48nukPTRi9GUjKMAEBxSOFQcs/view?usp=drive_link"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1FmHnrf0laFK6Hsh4hUE0Myx1k96kELqD/view?usp=drive_link",
+          "type": "Slides",
+          "label": "EMB Presentation"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1JEXTydPiyY-I23PN-fjViY_87oW5--yd/view?usp=sharing",
+          "type": "PDF",
+          "label": "Technical File "
+        },
+        {
+          "url": "https://drive.google.com/file/d/166y-PPXyqkYAIXSyEYanTwCmzy7VXWrp/view?usp=sharing",
+          "label": "Employee Handbook",
+          "type": "Slides"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1cQOqXp1T3uwFo9BEqQeKRm5HdUAu9U9h/view?usp=sharing",
+          "type": "PDF",
+          "label": "Ad placement"
+        }
+      ],
+      "role": "Corporate Communication Manager",
+      "title": "Communication Materials",
+      "type": "Portfolio-safe examples only; confidential details omitted.",
+      "id": 1,
+      "tools": [
+        "Canva",
+        "Adobe Express",
+        "Adobe Illustrator"
+      ],
+      "description": "A selection of brochures, flyers, corporate books, and other communication materials I designed to support campaigns and events"
+    },
+    {
       "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
       "date": "2024 - 2026",
       "gallery": [],
@@ -49,64 +101,12 @@
       "role": "Corporate Communication Manager",
       "title": "Newsletters",
       "type": "Portfolio-safe examples only; confidential details omitted.",
-      "id": 1,
+      "id": 2,
       "tools": [
         "Mailjet",
         "Canva"
       ],
       "description": "A selection of internal and external newsletters I designed and produced, crafted to inform, and engage."
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
-      "date": "2024 - 2026",
-      "gallery": [],
-      "deliverables": [
-        {
-          "label": "Trifold Brochure",
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/13-ECcYXdJSwVBHWCKflQwyuDfTYdkEAG/view?usp=sharing"
-        },
-        {
-          "label": "Notebook - 2025",
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1Eh1RPuryVC6pWVQ6k9DdteQWgc-y24WN/view?usp=sharing"
-        },
-        {
-          "label": "Notebook - 2026",
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1ubgr7Ol48nukPTRi9GUjKMAEBxSOFQcs/view?usp=drive_link"
-        },
-        {
-          "url": "https://drive.google.com/file/d/1FmHnrf0laFK6Hsh4hUE0Myx1k96kELqD/view?usp=drive_link",
-          "type": "Slides",
-          "label": "EMB Presentation"
-        },
-        {
-          "url": "https://drive.google.com/file/d/1JEXTydPiyY-I23PN-fjViY_87oW5--yd/view?usp=sharing",
-          "type": "PDF",
-          "label": "Technical File "
-        },
-        {
-          "url": "https://drive.google.com/file/d/166y-PPXyqkYAIXSyEYanTwCmzy7VXWrp/view?usp=sharing",
-          "label": "Employee Handbook",
-          "type": "Slides"
-        },
-        {
-          "url": "https://drive.google.com/file/d/1cQOqXp1T3uwFo9BEqQeKRm5HdUAu9U9h/view?usp=sharing",
-          "type": "PDF",
-          "label": "Ad placement"
-        }
-      ],
-      "role": "Corporate Communication Manager",
-      "title": "Communication Materials",
-      "type": "Portfolio-safe examples only; confidential details omitted.",
-      "id": 2,
-      "tools": [
-        "Canva",
-        "Adobe Express",
-        "Adobe Illustrator"
-      ],
-      "description": "A selection of brochures, flyers, corporate books, and other communication materials I designed to support campaigns and events"
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
