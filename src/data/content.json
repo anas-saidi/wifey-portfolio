@@ -41,11 +41,11 @@
   },
   "modal": {
     "dateLabel": "Date",
-    "roleLabel": "Rôle",
-    "overviewTitle": "Contexte & Enjeux",
-    "toolsTitle": "Outils Utilisés",
-    "galleryTitle": "Visuels du Projet",
-    "deliverablesTitle": "Deliverables"
+    "roleLabel": "Role",
+    "overviewTitle": "Context & Challenges",
+    "toolsTitle": "Tools Used",
+    "galleryTitle": "Project Visuals",
+    "deliverablesTitle": "Deliverables & Documents"
   },
   "social": {
     "sectionLabel": "Digital Campaigns",

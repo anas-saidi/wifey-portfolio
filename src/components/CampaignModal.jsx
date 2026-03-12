@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { X, Calendar, PenTool, FileText, Monitor, Folder, Image, ArrowUpRight } from 'lucide-react';
 import { modalContent } from '../data/content';
 import './CampaignModal.css';
@@ -14,7 +15,7 @@ const DeliverableIcon = ({ type }) => {
 const CampaignModal = ({ campaign, onClose }) => {
   if (!campaign) return null;
 
-  return (
+  return createPortal(
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose} aria-label="Close modal">
@@ -88,7 +89,8 @@ const CampaignModal = ({ campaign, onClose }) => {
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
 
