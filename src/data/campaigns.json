@@ -44,6 +44,21 @@
           "label": "Event Flyer",
           "type": "Image",
           "url": "https://drive.google.com/file/d/15S4a6W5X92IIt38gksHTGODr4Em69swh/view?usp=sharing"
+        },
+        {
+          "label": "New Year Gifts",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/1tFLSi1J0oMVt2n0kq7FGznx0g315dd0O/view?usp=sharing"
+        },
+        {
+          "type": "Slides",
+          "label": "QHSE Presentation Template",
+          "url": "https://drive.google.com/file/d/13y-KmaDDXyZiel1PEPYCSt2pvjlCPgWy/view?usp=sharing"
+        },
+        {
+          "label": "Yearly Review - Presentation Template",
+          "type": "Slides",
+          "url": "https://drive.google.com/file/d/1gHd9Q0FmYReQ1lYflM5otMa_mpW_WI_e/view?usp=sharing"
         }
       ],
       "role": "Corporate Communication Manager",
@@ -155,17 +170,36 @@
       "description": "Examples of corporate events and initiatives I organized to engage employees, strengthen company culture, and communicate key messages internally.\n"
     },
     {
-      "id": 4,
+      "thumbnail": "/assets/uploads/dsc09950.jpg",
+      "date": "2024 - 2026 ",
+      "deliverables": [
+        {
+          "label": "Forum EHTP",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/167FNrJ0_w98VkRKXfUZ1OeIMPcX5P98-/view?usp=sharing"
+        },
+        {
+          "label": "Forum OFPPT",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/197aiiMfFbcxmB7egH1wcYxi1bNqknWSk/view?usp=drive_link"
+        },
+        {
+          "label": "Forum EMI",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/182-4dukbBPqCKqq50MZuFJyCj1otL-0N/view?usp=sharing"
+        }
+      ],
+      "role": "Corporate Communication Manager",
       "title": "External Events",
       "type": "Portfolio-safe examples only; confidential details omitted.",
-      "date": "2024 - 2026 ",
-      "thumbnail": "/assets/uploads/dsc09950.jpg",
-      "description": "Employer branding events and activations aimed at showcasing company culture and attracting future talent.",
-      "role": "Corporate Communication Manager",
+      "id": 4,
       "tools": [
         "Canva Pro",
-        "Adobe illustrator"
-      ]
+        "Adobe illustrator",
+        "Microsoft Word",
+        "Microsoft Excel"
+      ],
+      "description": "Employer branding events and activations aimed at showcasing company culture and attracting future talent."
     }
   ]
 }
