@@ -44,7 +44,8 @@
     "roleLabel": "Rôle",
     "overviewTitle": "Contexte & Enjeux",
     "toolsTitle": "Outils Utilisés",
-    "galleryTitle": "Visuels du Projet"
+    "galleryTitle": "Visuels du Projet",
+    "deliverablesTitle": "Deliverables"
   },
   "social": {
     "sectionLabel": "Digital Campaigns",
@@ -70,7 +71,7 @@
         ]
       },
       {
-        "name": "Company Name",
+        "name": "ALTAN SPACE",
         "contextLine": "Role / Context",
         "links": [
           {
