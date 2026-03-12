@@ -58,39 +58,45 @@
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
-      "date": "Novembre 2025",
-      "gallery": [
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200",
-        "https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=1200"
-      ],
+      "date": "2024 - 2026",
+      "gallery": [],
       "deliverables": [
         {
-          "label": "Kit presse & identité visuelle",
+          "label": "Trifold Brochure",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/13-ECcYXdJSwVBHWCKflQwyuDfTYdkEAG/view?usp=sharing"
         },
         {
-          "label": "Manuel de signalétique",
+          "label": "Notebook - 2025",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/1Eh1RPuryVC6pWVQ6k9DdteQWgc-y24WN/view?usp=sharing"
         },
         {
-          "label": "Moodboard & direction artistique",
+          "label": "Notebook - 2026",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1ubgr7Ol48nukPTRi9GUjKMAEBxSOFQcs/view?usp=drive_link"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1FmHnrf0laFK6Hsh4hUE0Myx1k96kELqD/view?usp=drive_link",
           "type": "Slides",
-          "url": "#"
+          "label": "EMB Presentation"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1JEXTydPiyY-I23PN-fjViY_87oW5--yd/view?usp=sharing",
+          "type": "PDF",
+          "label": "Technical File "
         }
       ],
-      "role": "Designers Principale & Responsable Identité",
-      "title": "Sommet Digital Morocco 2030",
-      "type": "Identité Événementielle",
+      "role": "Corporate Communication Manager",
+      "title": "Communication Materials",
+      "type": "Portfolio-safe examples only; confidential details omitted.",
       "id": 2,
       "tools": [
-        "Illustrator",
-        "InDesign",
-        "Cinema 4D",
-        "Figma"
+        "Canva",
+        "Adobe Express",
+        "Adobe Illustrator"
       ],
-      "description": "Mission : donner une identité forte à un sommet gouvernemental réunissant 2 000 participants et diffusé en direct. J'ai développé le logo, la signalétique de l'événement, les supports scéniques et le kit presse — le tout sous 3 semaines, en coordination avec les équipes de production et de sécurité."
+      "description": "A selection of brochures, flyers, corporate books, and other communication materials I designed to support campaigns and events"
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
