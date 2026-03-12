@@ -116,7 +116,7 @@
     },
     {
       "thumbnail": "/assets/uploads/whatsapp-image-2026-03-12-at-08.44.14.jpeg",
-      "date": "2025 - 2026",
+      "date": "2024 - 2026",
       "gallery": [],
       "deliverables": [
         {
@@ -153,6 +153,19 @@
         "Canva Pro"
       ],
       "description": "Examples of corporate events and initiatives I organized to engage employees, strengthen company culture, and communicate key messages internally.\n"
+    },
+    {
+      "id": 4,
+      "title": "External Events",
+      "type": "Portfolio-safe examples only; confidential details omitted.",
+      "date": "2024 - 2026 ",
+      "thumbnail": "/assets/uploads/dsc09950.jpg",
+      "description": "Employer branding events and activations aimed at showcasing company culture and attracting future talent.",
+      "role": "Corporate Communication Manager",
+      "tools": [
+        "Canva Pro",
+        "Adobe illustrator"
+      ]
     }
   ]
 }
