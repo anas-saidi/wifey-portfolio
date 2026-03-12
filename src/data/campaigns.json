@@ -3,30 +3,47 @@
     {
       "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
       "date": "2024 - 2026",
-      "gallery": [
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200"
-      ],
+      "gallery": [],
       "deliverables": [
         {
-          "label": "Brief créatif & Stratégie",
+          "label": "Company news - QHSE updates",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/1tjsMXiKAgea_OcjlJsqD6SUm_bMW3_v_/view?usp=drive_link"
         },
         {
-          "label": "Charte graphique complète",
+          "label": "Company news - QHSE updates 2",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/1inTHs6Y2ebd_3J-YxOZB45na94QR2VrO/view?usp=drive_link"
         },
         {
-          "label": "Présentation finale client",
-          "type": "Slides",
-          "url": "#"
+          "label": "Company Events - Pink October",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1Lsagj7FkFiMXa-uxhywVAa68aTqz5PXv/view?usp=drive_link"
         },
         {
-          "label": "Tous les fichiers du projet",
-          "type": "Dossier",
-          "url": "#"
+          "label": "Special Occasions - Ramadan",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1Jv1VrIE0adqOWR5Goy-x838AVU1ZwSz9/view?usp=drive_link"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1GbwRQrtl5XMZFHJbYuh3k_R_5HXM70xY/view?usp=sharing",
+          "type": "PDF",
+          "label": "Special Occasions - New Year"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1GbwRQrtl5XMZFHJbYuh3k_R_5HXM70xY/view?usp=sharing",
+          "type": "PDF",
+          "label": "Special Occasions - Eid Al Fitr"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1GbwRQrtl5XMZFHJbYuh3k_R_5HXM70xY/view?usp=sharing",
+          "label": "Client feedback "
+        },
+        {
+          "url": "https://drive.google.com/file/d/1GbwRQrtl5XMZFHJbYuh3k_R_5HXM70xY/view?usp=sharing",
+          "label": "Company Events - Team Building Invitation",
+          "type": "PDF"
         }
       ],
       "role": "Corporate Communication Manager",
