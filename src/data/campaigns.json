@@ -1,7 +1,7 @@
 {
   "campaigns": [
     {
-      "thumbnail": "/assets/uploads/whatsapp-image-2026-03-12-at-00.42.38.jpeg",
+      "thumbnail": "https://drive.google.com/file/d/1EVRCmoZC4qDo3P3YGlgChgruiDdoPjjC/view?usp=drive_link",
       "date": "2024 - 2026",
       "gallery": [],
       "deliverables": [
@@ -21,7 +21,7 @@
           "url": "https://drive.google.com/file/d/1ubgr7Ol48nukPTRi9GUjKMAEBxSOFQcs/view?usp=drive_link"
         },
         {
-          "url": "https://drive.google.com/file/d/1FmHnrf0laFK6Hsh4hUE0Myx1k96kELqD/view?usp=drive_link",
+          "url": "https://drive.google.com/file/d/1FmHnrf0laFK6Hsh4hUE0Myx1k96kELqD/view?usp=sharing",
           "type": "Slides",
           "label": "EMB Presentation"
         },
@@ -39,6 +39,11 @@
           "url": "https://drive.google.com/file/d/1cQOqXp1T3uwFo9BEqQeKRm5HdUAu9U9h/view?usp=sharing",
           "type": "PDF",
           "label": "Ad placement"
+        },
+        {
+          "label": "Event Flyer",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/15S4a6W5X92IIt38gksHTGODr4Em69swh/view?usp=sharing"
         }
       ],
       "role": "Corporate Communication Manager",
@@ -46,14 +51,15 @@
       "type": "Portfolio-safe examples only; confidential details omitted.",
       "id": 1,
       "tools": [
-        "Canva",
+        "Canva ",
         "Adobe Express",
-        "Adobe Illustrator"
+        "Adobe Illustrator",
+        "XMind"
       ],
       "description": "A selection of brochures, flyers, corporate books, and other communication materials I designed to support campaigns and events"
     },
     {
-      "thumbnail": "/assets/uploads/whatsapp-image-2026-03-12-at-08.44.14.jpeg",
+      "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
       "date": "2024 - 2026",
       "gallery": [],
       "deliverables": [
@@ -104,40 +110,49 @@
       "id": 2,
       "tools": [
         "Mailjet",
-        "Canva"
+        "Canva Pro"
       ],
       "description": "A selection of internal and external newsletters I designed and produced, crafted to inform, and engage."
     },
     {
       "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
-      "date": "Juillet 2025",
-      "gallery": [
-        "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=1200",
-        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200"
-      ],
+      "date": "2025 - 2026",
+      "gallery": [],
       "deliverables": [
         {
-          "label": "Rapport de campagne",
+          "label": "Pink October Flyers",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/12uaLE0X9JRPMCCHIGgSBZIrfrITSji50/view?usp=sharing"
         },
         {
-          "label": "Guide visuel & typographie",
+          "label": "QHSE Team Day Announcement",
           "type": "PDF",
-          "url": "#"
+          "url": "https://drive.google.com/file/d/1hYYHJBrHgV931NjM0r5HfFP0CCC13EnP/view?usp=sharing"
+        },
+        {
+          "label": "Induction day ",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/1_iFXhGViCitsakQR43aqBCGNMZul1XTb/view?usp=sharing"
+        },
+        {
+          "label": "Rabat Run",
+          "type": "Image",
+          "url": "https://drive.google.com/file/d/1QlR1MuHg-wdIAn767pGff3c9YhtFs9Ss/view?usp=sharing"
+        },
+        {
+          "label": "Team Building - 50th anniversary",
+          "url": "https://drive.google.com/file/d/1jYUDCjcnnC5cHxZXFc3VywTFgCh4VhYG/view?usp=drive_link",
+          "type": "Image"
         }
       ],
-      "role": "Conceptrice-Rédactrice & Directrice Artistique",
-      "title": "Campagne Proximité Rurale",
-      "type": "Campagne Sociale & Digitale",
+      "role": "Corporate Communication Manager",
+      "title": "Internal Events",
+      "type": "Portfolio-safe examples only; confidential details omitted.",
       "id": 3,
       "tools": [
-        "Photoshop",
-        "Lightroom",
-        "Premiere Pro",
         "Canva Pro"
       ],
-      "description": "Objectif : réconcilier une marque de télécommunications avec des communautés rurales méfiantes. J'ai construit un langage visuel ancré dans les codes locaux — typographie chaleureuse, photographie documentaire, palette terreuse — déployé sur Facebook, YouTube et les panneaux de proximité en zones reculées."
+      "description": "Examples of corporate events and initiatives I organized to engage employees, strengthen company culture, and communicate key messages internally.\n"
     }
   ]
 }
