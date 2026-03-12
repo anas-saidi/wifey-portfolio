@@ -42,7 +42,7 @@
   "modal": {
     "dateLabel": "Date",
     "roleLabel": "Role",
-    "overviewTitle": "Context & Challenges",
+    "overviewTitle": "Context",
     "toolsTitle": "Tools Used",
     "galleryTitle": "Project Visuals",
     "deliverablesTitle": "Deliverables & Documents"
@@ -72,18 +72,12 @@
       },
       {
         "name": "ALTAN SPACE",
-        "contextLine": "Role / Context",
+        "contextLine": "",
         "links": [
           {
-            "platform": "instagram",
-            "label": "Instagram",
-            "url": "#",
-            "description": "Creative posts and stories."
-          },
-          {
-            "platform": "linkedin",
-            "label": "LinkedIn",
-            "url": "#",
+            "platform": "twitter",
+            "label": "X",
+            "url": "https://x.com/AtlanSpace",
             "description": "Announcements and corporate highlights."
           }
         ]
@@ -93,7 +87,7 @@
   "about": {
     "sectionLabel": "About",
     "sectionTitle": "Curious mind.<br><em>Creative drive.</em>",
-    "badgeNum": "24+",
+    "badgeNum": "74+",
     "badgeLabel": "Deliverables",
     "sectionSubtitle": "Strategic, creative, and hands-on in corporate communication.",
     "bio": [
@@ -101,7 +95,7 @@
       "Not sure where to start? I map the right strategy, coordinate stakeholders, and deliver the campaigns or initiatives you need to meet your objectives."
     ],
     "skills": [
-      "Canva",
+      "Canva Pro",
       "Project management",
       "Adobe Express",
       "Mailjet",
@@ -129,10 +123,10 @@
     "secondaryButton": "My Process",
     "stats": [
       {
-        "num": "24",
+        "num": "74",
         "suffix": "+",
-        "label": "Projets livrés",
-        "caption": "campagnes & activations"
+        "label": "Delivered Projects",
+        "caption": "Campaigns & Events"
       },
       {
         "num": "4",
