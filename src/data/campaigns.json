@@ -11,9 +11,14 @@
           "url": "https://drive.google.com/file/d/13-ECcYXdJSwVBHWCKflQwyuDfTYdkEAG/view?usp=sharing"
         },
         {
-          "label": "Notebook - 2025",
+          "url": "https://drive.google.com/file/d/166y-PPXyqkYAIXSyEYanTwCmzy7VXWrp/view?usp=sharing",
+          "label": "Employee Handbook",
+          "type": "Slides"
+        },
+        {
           "type": "PDF",
-          "url": "https://drive.google.com/file/d/1Eh1RPuryVC6pWVQ6k9DdteQWgc-y24WN/view?usp=sharing"
+          "url": "https://drive.google.com/file/d/1NauLXIU-cz3MeorvaVzNR8Q9GPzsQn05/view?usp=sharing",
+          "label": "Le Bourget Paris - Flyer"
         },
         {
           "label": "Notebook - 2026",
@@ -26,22 +31,12 @@
           "label": "EMB Presentation"
         },
         {
-          "url": "https://drive.google.com/file/d/1JEXTydPiyY-I23PN-fjViY_87oW5--yd/view?usp=sharing",
-          "type": "PDF",
-          "label": "Technical File "
-        },
-        {
-          "url": "https://drive.google.com/file/d/166y-PPXyqkYAIXSyEYanTwCmzy7VXWrp/view?usp=sharing",
-          "label": "Employee Handbook",
-          "type": "Slides"
-        },
-        {
           "url": "https://drive.google.com/file/d/1cQOqXp1T3uwFo9BEqQeKRm5HdUAu9U9h/view?usp=sharing",
           "type": "PDF",
           "label": "Ad placement"
         },
         {
-          "label": "Event Flyer",
+          "label": "EHTP - Flyer",
           "type": "Image",
           "url": "https://drive.google.com/file/d/15S4a6W5X92IIt38gksHTGODr4Em69swh/view?usp=sharing"
         },
@@ -59,6 +54,11 @@
           "label": "Yearly Review - Presentation Template",
           "type": "Slides",
           "url": "https://drive.google.com/file/d/1gHd9Q0FmYReQ1lYflM5otMa_mpW_WI_e/view?usp=sharing"
+        },
+        {
+          "label": "Notebook - 2025",
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1Eh1RPuryVC6pWVQ6k9DdteQWgc-y24WN/view?usp=sharing"
         }
       ],
       "role": "Corporate Communication Manager",
